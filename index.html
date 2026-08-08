@@ -12,37 +12,54 @@
             color: #b8b8b8;
             font-family: "Courier New", monospace;
             margin: 0;
-            padding: 60px;
+            padding: 50px;
         }
 
         .terminal {
-            max-width: 800px;
-            margin: 0 auto;
+            max-width: 850px;
+            margin: auto;
         }
 
         .header {
             color: #777;
             border-bottom: 1px solid #333;
             padding-bottom: 15px;
-            margin-bottom: 40px;
+            margin-bottom: 35px;
         }
 
         .line {
             margin: 12px 0;
         }
 
-        .corrupted {
+        .dim {
+            color: #555;
+        }
+
+        .bright {
+            color: #ddd;
+        }
+
+        .block {
+            margin: 30px 0;
+        }
+
+        .data {
+            letter-spacing: 4px;
+            line-height: 2;
+            color: #888;
+        }
+
+        .footer {
+            margin-top: 50px;
             color: #444;
         }
 
-        .recovery {
-            color: #b8b8b8;
-            text-decoration: none;
+        a {
+            color: #aaa;
         }
 
-        .recovery:hover {
+        a:hover {
             color: white;
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -52,7 +69,7 @@
 <div class="terminal">
 
     <div class="header">
-        RECORD 17
+        RECORD 17 // RECOVERY TERMINAL
     </div>
 
     <div class="line">
@@ -64,72 +81,92 @@
     </div>
 
     <div class="line">
-        STATUS: INCOMPLETE
+        STATUS: RECOVERED
     </div>
 
-    <br>
+    <div class="block">
 
-    <div class="line">
-        LAST ACCESS:
+        <div class="bright">
+            NOTICE:
+        </div>
+
+        <div class="line">
+            THIS RECORD WAS NOT INTENDED FOR YOU.
+        </div>
+
+        <div class="line">
+            IF YOU ARE READING THIS, THE PREVIOUS
+            TRANSFER WAS SUCCESSFUL.
+        </div>
+
     </div>
 
-    <div class="line">
-        UNKNOWN
+    <div class="block">
+
+        <div class="bright">
+            RECOVERED FRAGMENT:
+        </div>
+
+        <br>
+
+        <div class="data">
+            T H E R E C O R D<br>
+            W A S N E V E R<br>
+            M E A N T T O B E<br>
+            F O U N D
+        </div>
+
     </div>
 
-    <div class="line">
-        LAST MODIFICATION:
+    <div class="block">
+
+        <div class="bright">
+            ADDITIONAL DATA:
+        </div>
+
+        <br>
+
+        <div class="data">
+            20 8 5<br>
+            18 5 3 15 18 4<br>
+            9 19<br>
+            14 15 20<br>
+            7 15 14 5
+        </div>
+
     </div>
 
-    <div class="line">
-        UNKNOWN
+    <div class="block">
+
+        <div class="dim">
+            RECOVERY INSTRUCTION:
+        </div>
+
+        <div class="line">
+            THE NUMBERS WERE NOT RECORDED AS NUMBERS.
+        </div>
+
+        <div class="line">
+            THEY WERE RECORDED AS POSITIONS.
+        </div>
+
     </div>
 
-    <div class="line">
-        ARCHIVE STATUS:
+    <div class="block">
+
+        <div class="bright">
+            VERIFICATION REQUIRED.
+        </div>
+
+        <div class="line">
+            IDENTIFY THE RECOVERED MESSAGE.
+        </div>
+
     </div>
 
-    <div class="line">
-        CORRUPTED
+    <div class="footer">
+        RECORD 17 // END OF FILE
     </div>
-
-    <br>
-
-    <div class="line">
-        RECOVERY ATTEMPT:
-    </div>
-
-    <div class="corrupted">
-        ████████████████████████
-    </div>
-
-    <div class="corrupted">
-        ████████████████████████
-    </div>
-
-    <div class="corrupted">
-        ████████████████████████
-    </div>
-
-    <br>
-
-    <div class="line">
-        ERROR 017
-    </div>
-
-    <div class="line">
-        RECORD COULD NOT BE RESTORED.
-    </div>
-
-    <br>
-
-    <div class="line">
-        RECOVERY STRING:
-    </div>
-
-<a class="recovery" href="YOUR_PUZZLE_2_LINK_HERE">
-    [ 7F3A-19C2-04D8 ]
-</a>
 
 </div>
 
